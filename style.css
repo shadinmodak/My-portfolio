@@ -6,6 +6,10 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 
 .name{
     color: orange;
@@ -15,7 +19,7 @@ h1{
     font-size: 40px;
 }
 
-section{
+.flexible-container{
     display: flex;
 }
 
@@ -46,4 +50,25 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-left: 5px solid blue;
+    box-shadow: 10px 10px 40px rgb(101, 112, 77);
+}
+
+#Full-stack-Developer{
+    border-left: 5px solid orange;
+}
+
+#Baby-Web-Developer{
+    border-left: 5px solid blue;
+}
+
+footer p{
+    text-align: center;
 }
